@@ -17,4 +17,4 @@ pylint-celery = "*"
 python_version = "3.12"
 
 [scripts] 
-webDjango = "python webpersonal/manage.py runserver"
+server = "python webpersonal/manage.py runserver"

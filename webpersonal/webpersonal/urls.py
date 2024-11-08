@@ -30,6 +30,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-if settings.DEBUG: #Con este codigo agregamos la visualizacion de imagenes en el administrador de django
+if settings.DEBUG: #Con este codigo agregamos la visualizacion de imagenes en el administrador de django siempre y cuando el debug este activo
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
